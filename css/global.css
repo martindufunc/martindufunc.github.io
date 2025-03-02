@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+}
+.logo {
+    max-width: 100px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background: #555;
+}
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f4f4f4;
+}
